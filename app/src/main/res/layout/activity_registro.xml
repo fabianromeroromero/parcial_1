@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".RegistroActivity">
+
+    <EditText
+        android:id="@+id/ednombreRe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginVertical="10sp"
+        android:hint="Ingrese su nombre"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edEmailRe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginVertical="10sp"
+        android:hint="Ingrese su correo"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edDireccionRe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginVertical="10sp"
+        android:hint="Ingrese su direccion"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edTelefonoRe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginVertical="10sp"
+        android:hint="Ingrese su telefono"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/edFechaRe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:clickable="true"
+        android:focusable="false"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginVertical="10sp"
+        android:hint="Ingrese su fecha de cumpleaños"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edContrasenaRe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginVertical="10sp"
+        android:hint="Ingrese su contraseña"
+        android:inputType="text" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btEnviarRe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="50sp"
+            android:layout_weight="1"
+            android:text="Enviar" />
+    </LinearLayout>
+</LinearLayout>
